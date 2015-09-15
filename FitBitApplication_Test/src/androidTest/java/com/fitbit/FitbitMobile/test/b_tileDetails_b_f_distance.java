@@ -49,7 +49,7 @@ public class b_tileDetails_b_f_distance extends ActivityInstrumentationTestCase2
 
         solo.clickOnText(java.util.regex.Pattern.quote("Distance"));
 
-        solo.clickOnText(java.util.regex.Pattern.quote("THIS WEEK"));
+        //solo.clickOnText(java.util.regex.Pattern.quote("THIS WEEK"));
 
     }
 }

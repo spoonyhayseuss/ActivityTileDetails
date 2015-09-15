@@ -44,7 +44,7 @@ public class b_tileDetails_c_a_caloriesBurned extends ActivityInstrumentationTes
         //Click on calories burned
 		solo.clickOnText(java.util.regex.Pattern.quote("calories burned"));
 		solo.clickOnText(java.util.regex.Pattern.quote("Calories"));
-		solo.clickOnText(java.util.regex.Pattern.quote("THIS WEEK"));
+		//solo.clickOnText(java.util.regex.Pattern.quote("THIS WEEK"));
 
 
 	}

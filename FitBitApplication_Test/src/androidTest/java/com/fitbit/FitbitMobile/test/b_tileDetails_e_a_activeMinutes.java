@@ -49,8 +49,8 @@ public class b_tileDetails_e_a_activeMinutes extends ActivityInstrumentationTest
         //Wait for activity: 'com.fitbit.activity.ui.landing.ActivityLandingActivity_'
 		assertTrue("ActivityLandingActivity is not found!", solo.waitForActivity("ActivityLandingActivity"));
 
-		solo.clickOnText(java.util.regex.Pattern.quote("THIS WEEK"));
-		solo.clickOnText(java.util.regex.Pattern.quote("active minutes"));
+		//solo.clickOnText(java.util.regex.Pattern.quote("THIS WEEK"));
+		solo.clickOnText(java.util.regex.Pattern.quote("Active Minutes"));
 
 
 	}

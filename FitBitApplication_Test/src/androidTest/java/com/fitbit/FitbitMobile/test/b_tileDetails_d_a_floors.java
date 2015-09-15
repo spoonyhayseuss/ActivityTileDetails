@@ -50,8 +50,8 @@ public class b_tileDetails_d_a_floors extends ActivityInstrumentationTestCase2 {
 		assertTrue("ActivityLandingActivity is not found!", solo.waitForActivity("ActivityLandingActivity"));
 
 		solo.clickOnText(java.util.regex.Pattern.quote("Floors"));
-		solo.clickOnText(java.util.regex.Pattern.quote("THIS WEEK"));
-		solo.clickOnText(java.util.regex.Pattern.quote("floors"));
+		//solo.clickOnText(java.util.regex.Pattern.quote("THIS WEEK"));
+		//solo.clickOnText(java.util.regex.Pattern.quote("floors"));
 
 	}
 }

@@ -47,20 +47,12 @@ public class b_tileDetails_a_a_a_logIn extends ActivityInstrumentationTestCase2 
 		solo.clickOnView(solo.getView("btn_log_in"));
         //Wait for activity: 'com.fitbit.onboarding.login.LoginActivity'
 		assertTrue("LoginActivity is not found!", solo.waitForActivity("LoginActivity"));
-        //Sleep
-		solo.sleep(500);
-        //Enter email
-		solo.clearEditText((android.widget.EditText) solo.getView("login_email"));
-		solo.enterText((android.widget.EditText) solo.getView("login_email"), "spoonyhayseuss@gmail.com	");
+        solo.clearEditText(0);
+		solo.enterText(0, "wellness@android.com");
 
-        //Click on Empty Text View
-		solo.clickOnView(solo.getView("login_password"));
+        solo.enterText(1, "wellness");
 
-        //Enter pass'
-		solo.clearEditText((android.widget.EditText) solo.getView("login_password"));
-		solo.enterText((android.widget.EditText) solo.getView("login_password"), "spoon123");
-        //Sleep
-		solo.sleep(500);
+
         //Click on Log in
 		solo.clickOnView(solo.getView("login_button"));
         //Wait for activity: 'com.fitbit.home.ui.HomeActivity_'
