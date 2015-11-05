@@ -41,7 +41,7 @@ public class b_tileDetails_e_a_activeMinutes extends ActivityInstrumentationTest
         //Wait for activity: 'com.fitbit.onboarding.landing.LandingActivity_'
 		solo.waitForActivity("LandingActivity_", 500);
         //Wait for activity: 'com.fitbit.home.ui.HomeActivity_'
-		assertTrue("HomeActivity_ is not found!", solo.waitForActivity("HomeActivity_"));
+		assertTrue("HomeActivity is not found!", solo.waitForActivity("HomeActivity"));
 
         //Click on 35 30 very active minutes
 		solo.clickOnText(java.util.regex.Pattern.quote("active minutes"));

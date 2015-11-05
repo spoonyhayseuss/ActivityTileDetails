@@ -60,12 +60,11 @@ public class b_tileDetails_b_d_unitMiles extends ActivityInstrumentationTestCase
         //Click on Length
         solo.clickOnView(solo.getView("spn_length"));
         //Wait for dialog
-        solo.waitForDialogToOpen(5000);
+        solo.waitForDialogToOpen(1000);
 
-        solo.sleep(500);
         //Click on Feet, Miles
-        solo.clickOnView(solo.getView(android.R.id.text1, 1));
-        solo.sleep(500);
+        solo.clickOnText("Feet, Miles");
+        solo.sleep(1000);
 
     }
 }

@@ -39,7 +39,7 @@ public class b_tileDetails_b_e_tileMile extends ActivityInstrumentationTestCase2
 
     public void testRun() {
         //Wait for activity: 'com.fitbit.onboarding.landing.LandingActivity_'
-        solo.waitForActivity("LandingActivity_", 2000);
+        solo.waitForActivity("LandingActivity_", 500);
 
 
 

@@ -56,7 +56,8 @@ public class b_tileDetails_a_a_a_logIn extends ActivityInstrumentationTestCase2 
         //Click on Log in
 		solo.clickOnView(solo.getView("login_button"));
         //Wait for activity: 'com.fitbit.home.ui.HomeActivity_'
-		assertTrue("HomeActivity_ is not found!", solo.waitForActivity("HomeActivity_"));
+		assertTrue("HomeActivity is not found!", solo.waitForActivity("HomeActivity"));
+		solo.sleep(2000);
 
 	}
 }

@@ -39,7 +39,7 @@ public class b_tileDetails_b_b_unitKilometers extends ActivityInstrumentationTes
 
     public void testRun() {
         //Wait for activity: 'com.fitbit.onboarding.landing.LandingActivity_'
-        solo.waitForActivity("LandingActivity_", 2000);
+        solo.waitForActivity("LandingActivity_", 500);
 
         solo.clickOnView(solo.getView(android.widget.ImageButton.class, 0));
         solo.sleep(500);
@@ -60,12 +60,12 @@ public class b_tileDetails_b_b_unitKilometers extends ActivityInstrumentationTes
         //Click on Length
         solo.clickOnView(solo.getView("spn_length"));
         //Wait for dialog
-        solo.waitForDialogToOpen(5000);
+        solo.waitForDialogToOpen(1000);
 
-        solo.sleep(500);
+
         //Click on Feet, Miles
-        solo.clickOnView(solo.getView(android.R.id.text1));
-        solo.sleep(500);
+        solo.clickOnText("Centimeters, Kilometers");
+        solo.sleep(1000);
 
     }
 }

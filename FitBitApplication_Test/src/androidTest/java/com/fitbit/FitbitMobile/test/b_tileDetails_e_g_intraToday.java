@@ -41,7 +41,7 @@ public class b_tileDetails_e_g_intraToday extends ActivityInstrumentationTestCas
         //Wait for activity: 'com.fitbit.onboarding.landing.LandingActivity_'
         solo.waitForActivity("LandingActivity_", 500);
         //Wait for activity: 'com.fitbit.home.ui.HomeActivity_'
-        assertTrue("HomeActivity_ is not found!", solo.waitForActivity("HomeActivity_"));
+        assertTrue("HomeActivity is not found!", solo.waitForActivity("HomeActivity"));
         //Sleep
         solo.sleep(500);
 

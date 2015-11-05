@@ -41,7 +41,7 @@ public class b_tileDetails_f_a_tileStressTest extends ActivityInstrumentationTes
         //Wait for activity: 'com.fitbit.onboarding.landing.LandingActivity_'
         solo.waitForActivity("LandingActivity_", 2000);
         //Wait for activity: 'com.fitbit.home.ui.HomeActivity_'
-        assertTrue("HomeActivity_ is not found!", solo.waitForActivity("HomeActivity_"));
+        assertTrue("HomeActivity is not found!", solo.waitForActivity("HomeActivity"));
         //Sleep for x milliseconds
         solo.sleep(500);
 
